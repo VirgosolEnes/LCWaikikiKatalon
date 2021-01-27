@@ -21,6 +21,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.verifyElementVisible(findTestObject("arama/Ürün Kartı"))
+
 List<WebElement> elements = WebUI.findWebElements(findTestObject("arama/Ürün Kartı"),10)
 
 if(!elements.get(Integer.parseInt(Sira)-1).getText().contains(Ad))
