@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC1</name>
+   <name>Favoriye eklenen ürünün sepete eklenmesi</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>96dc68b3-92b4-43a1-af97-9679d3f4f3a4</testCaseGuid>
+   <testCaseGuid>0c1f92bd-1785-40ea-9775-7d032fa806aa</testCaseGuid>
 </TestCaseEntity>

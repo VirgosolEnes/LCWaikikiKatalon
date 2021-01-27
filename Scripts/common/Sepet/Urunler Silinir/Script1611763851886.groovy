@@ -3,7 +3,6 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import org.junit.Assert as Assert
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -16,7 +15,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-if (!(WebUI.getWindowTitle().contains('LC Waikiki - Online Alışveriş Sitesi'))) {
-    Assert.assertTrue('Anasayfa açılmadı', true)
+while(true){
+	if (WebUI.verifyElementPresent(findTestObject("Object Repository/sepet/Sil"),1,FailureHandling.OPTIONAL)) {
+		WebUI.click(findTestObject("Object Repository/sepet/Sil"))
+		if (WebUI.verifyElementPresent(findTestObject("Object Repository/sepet/SilOnay"), 1,FailureHandling.OPTIONAL)) {
+		WebUI.click(findTestObject("Object Repository/sepet/SilOnay"))
+		}
+	}
+	else{
+		break
+	}
 }
-

@@ -63,4 +63,8 @@ class sepet {
 	def odemeAdiminaGeceTiklanir() {
 		WebUI.callTestCase(findTestCase("Test Cases/common/Sepet/Ödeme Adımına Geç butonuna tıklanır"), [:],FailureHandling.STOP_ON_FAILURE)
 	}
+	@When("Ürünler silinir")
+	def urunlerSilinir() {
+		WebUI.callTestCase(findTestCase("Test Cases/common/Sepet/Urunler Silinir"), [:],FailureHandling.STOP_ON_FAILURE)
+	}
 }

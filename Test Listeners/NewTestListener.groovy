@@ -22,10 +22,10 @@ import com.kms.katalon.core.annotation.AfterTestSuite
 import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 
-class Listener {
+class NewTestListener {
 
-	@BeforeTestSuite
-	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
+	@BeforeTestCase
+	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
 		WebUI.openBrowser(GlobalVariable.baseUrl)
 		WebUI.maximizeWindow()
 		WebUI.waitForJQueryLoad(GlobalVariable.wait)
@@ -33,8 +33,8 @@ class Listener {
 	}
 
 
-	@AfterTestSuite
-	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
+	@AfterTestCase
+	def sampleAfterTestCase(TestCaseContext testCaseContext) {
 		WebUI.closeBrowser()
 	}
 }

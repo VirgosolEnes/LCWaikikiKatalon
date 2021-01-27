@@ -18,7 +18,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-
+WebUI.verifyElementPresent(findTestObject('ödemeAdimi/Uyari'), 5)
 if (!WebUI.getText(findTestObject('ödemeAdimi/Uyari')).contains(Uyari)) {
 		Assert.assertTrue("Mesaj yanlış",false)
 }
