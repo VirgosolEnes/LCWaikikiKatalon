@@ -86,7 +86,6 @@ Feature: Title of your feature
     * Favorilerimdeki ürün sepete eklenir
     * Beden popupının geldiği doğrulanır
     * Beden popupından <beden> değeri seçilir
-    * Sepetteki ürün sayısının 2 olduğu doğrulanır
     * Sepetim ikonuna tıklanır
     * Sepet Detaylarının geldiği doğrulanır
 
