@@ -21,7 +21,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementVisible(findTestObject("arama/Ürün Kartı"))
+WebUI.delay(3)
 
 List<WebElement> elements = WebUI.findWebElements(findTestObject("arama/Ürün Kartı"),10)
 
