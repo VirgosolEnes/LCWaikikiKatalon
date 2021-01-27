@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Ödeme Seçenekleri CVV olarak girilir</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e34ceab4-584f-4365-b4f3-76175e3f8e51</testCaseGuid>
+</TestCaseEntity>

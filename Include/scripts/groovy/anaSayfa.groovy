@@ -55,6 +55,11 @@ class anaSayfa {
 		WebUI.callTestCase(findTestCase("Test Cases/common/anasayfa/Giriş Yap a tıklanır"), [:],FailureHandling.STOP_ON_FAILURE)
 	}
 
+	@When("Anladım butonuna tıklanır")
+	def anladımButonunaTiklanir() {
+		WebUI.callTestCase(findTestCase("Test Cases/common/anasayfa/Anladım Butonuna Tıklanır"), [:],FailureHandling.STOP_ON_FAILURE)
+	}
+
 	@When("Hemen Gel-Al bannerına tıklanır")
 	def hemenGelAlBannerinaTiklanir() {
 		WebUI.callTestCase(findTestCase("Test Cases/common/anasayfa/Hemen Gel-Al bannerına tıklanır"), [:],FailureHandling.STOP_ON_FAILURE)
@@ -73,5 +78,25 @@ class anaSayfa {
 	@When("Hemen Gelsin alt bannerının açıldığı doğrulanır")
 	def hemenGelsinAltBannerininAcildigiDogrulanir() {
 		WebUI.callTestCase(findTestCase("Test Cases/common/anasayfa/Hemen Gelsin alt bannerının açıldığı doğrulanır"), [:],FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Arama alanına tıklanır")
+	def aramaAlanınaTiklanir() {
+		WebUI.callTestCase(findTestCase("Test Cases/common/anasayfa/Arama alanına tıklanır"), [:],FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Sık Arananların listelendiği görülür")
+	def sikArananlarinListelendigiGorulur() {
+		WebUI.callTestCase(findTestCase("Test Cases/common/anasayfa/Sık Arananların listelendiği görülür"), [:],FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Arama alanından (.*) değeri aranır")
+	def aramaAlanindanDegerAranir(String arama) {
+		WebUI.callTestCase(findTestCase("Test Cases/common/anasayfa/Arama alanından değer aranır"), ["Arama":arama],FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Menüden (.*) alanı seçilir")
+	def menudenSecimYapilir(String menu) {
+		WebUI.callTestCase(findTestCase("Test Cases/common/anasayfa/Menüden alanı seçilir"), ["Menu":menu],FailureHandling.STOP_ON_FAILURE)
 	}
 }

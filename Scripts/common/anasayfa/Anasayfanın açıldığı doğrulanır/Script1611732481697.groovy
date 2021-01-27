@@ -18,7 +18,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+
+WebUI.navigateToUrl("https://www.lcwaikiki.com/tr-TR/TR")
 if(!WebUI.getWindowTitle().contains("LC Waikiki - Online Alışveriş Sitesi")){
-	println WebUI.getWindowTitle() + "-  LC Waikiki - Online Alışveriş Sitesi"
 	Assert.assertTrue("Anasayfa açılmadı", true)
 }

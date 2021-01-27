@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Ödeme Seçenekleri Kart No girilir</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dcb33992-29cf-440f-bba2-91a91e93c5ae</testCaseGuid>
+</TestCaseEntity>

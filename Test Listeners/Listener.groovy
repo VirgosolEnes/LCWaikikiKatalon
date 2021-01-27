@@ -29,7 +29,7 @@ class Listener {
 		WebUI.openBrowser(GlobalVariable.baseUrl)
 		WebUI.maximizeWindow()
 		WebUI.waitForJQueryLoad(GlobalVariable.wait)
-		WebUI.waitForAngularLoad(GlobalVariable.wait)		
+		WebUI.deleteAllCookies()
 	}
 
 

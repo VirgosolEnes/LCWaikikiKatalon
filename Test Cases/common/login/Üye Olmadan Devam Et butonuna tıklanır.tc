@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Üye Olmadan Devam Et butonuna tıklanır</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>adffb016-cf3a-418f-8285-9ef85b459c88</testCaseGuid>
+</TestCaseEntity>

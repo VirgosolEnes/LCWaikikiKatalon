@@ -59,4 +59,24 @@ class login {
 	def girisYapButonunaTiklanir() {
 		WebUI.callTestCase(findTestCase("Test Cases/common/login/Giriş Yap butonuna tıklanır"), [:],FailureHandling.STOP_ON_FAILURE)
 	}
+
+	@When("Üye Olmadan Sipariş alanının geldiği doğrulanır")
+	def uyeOlmadanSiparisAlanininGeldigiDogrulanir() {
+		WebUI.callTestCase(findTestCase("Test Cases/common/login/Üye Olmadan Sipariş alanının geldiği doğrulanır"), [:],FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Üye Olmadan Sipariş alanına (.*) girilir")
+	def uyeOlmadanSiparisAlanininaDegerGirilir(String eposta) {
+		WebUI.callTestCase(findTestCase("Test Cases/common/login/Üye Olmadan Sipariş alanına eposta girilir"), ["Eposta":eposta],FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Kullanım ve Gizlilik Sözleşmesi checkboxına tıklanır")
+	def kullanimveGizlilikSozlesmesineTiklanir() {
+		WebUI.callTestCase(findTestCase("Test Cases/common/login/Kullanım ve Gizlilik Sözleşmesi checkboxına tıklanır"), [:],FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Üye Olmadan Devam Et butonuna tıklanır")
+	def uyeOlmadanDevamEtButonunaTiklanir() {
+		WebUI.callTestCase(findTestCase("Test Cases/common/login/Üye Olmadan Devam Et butonuna tıklanır"), [:],FailureHandling.STOP_ON_FAILURE)
+	}
 }

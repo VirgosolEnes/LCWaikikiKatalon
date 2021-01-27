@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Üye Olmadan Sipariş alanının geldiği doğrulanır</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0382bc90-e46b-4721-a99f-4c200137a225</testCaseGuid>
+</TestCaseEntity>

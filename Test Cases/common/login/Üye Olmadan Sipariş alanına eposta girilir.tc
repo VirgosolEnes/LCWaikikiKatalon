@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Üye Olmadan Sipariş alanına eposta girilir</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd7ab911-4d0a-4304-a754-af5097bf545f</testCaseGuid>
+</TestCaseEntity>
