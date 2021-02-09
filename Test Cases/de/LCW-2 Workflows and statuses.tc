@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Workflows and statuses
+Description: !Workflow.png|align=left!
+h4. Workflows - What you need to know
+{color:#707070}Workflows define steps to get a task to done. To see the workflow this tasks goes through, click on 'View Workflow' above. {color}
+h4. Status
+{color:#707070} A status represents the â€œstateâ€� of a task at a specific point in your workflow. The current status of your task can be viewed in the 'Details' section above. Once you're ready to move to the next step, click on the appropriate transition button. {color}
+
+Next: [Editing tasks|LCW-3]
+{color:#707070}Previous:{color} [This is your first task.|LCW-1]
+
+----
+[Learn more about workflows|http://blogs.atlassian.com/2015/11/how-to-set-up-business-workflows-in-jira-core/]</description>
+   <name>LCW-2 Workflows and statuses</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10005&quot;:&quot;0|i00007:&quot;,&quot;customfield_10004&quot;:[&quot;com.atlassian.greenhopper.service.sprint.Sprint@4da91a10[id\u003d1,rapidViewId\u003d1,state\u003dACTIVE,name\u003dLCWaikik Sprint 1,startDate\u003d2021-02-05T10:34:00.000+03:00,endDate\u003d2021-02-05T10:49:00.000+03:00,completeDate\u003d\u003cnull\u003e,activatedDate\u003d2021-02-05T10:34:20.335+03:00,sequence\u003d1,goal\u003d\u003cnull\u003e,autoStartStop\u003dfalse]&quot;]},&quot;status&quot;:{&quot;id&quot;:3,&quot;description&quot;:&quot;This issue is being actively worked on at the moment by the assignee.&quot;,&quot;iconUrl&quot;:&quot;http://localhost:8084/images/icons/statuses/inprogress.png&quot;,&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/status/3&quot;,&quot;name&quot;:&quot;In Progress&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;LCW&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;LCWaikiki&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Workflows and statuses&quot;,&quot;description&quot;:&quot;!Workflow.png|align\u003dleft!\nh4. Workflows - What you need to know\n{color:#707070}Workflows define steps to get a task to done. To see the workflow this tasks goes through, click on \u0027View Workflow\u0027 above. {color}\nh4. Status\n{color:#707070} A status represents the â€œstateâ€� of a task at a specific point in your workflow. The current status of your task can be viewed in the \u0027Details\u0027 section above. Once you\u0027re ready to move to the next step, click on the appropriate transition button. {color}\n\nNext: [Editing tasks|LCW-3]\n{color:#707070}Previous:{color} [This is your first task.|LCW-1]\n\n----\n[Learn more about workflows|http://blogs.atlassian.com/2015/11/how-to-set-up-business-workflows-in-jira-core/]&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;enes.erdogan@virgosol.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Enes Erdoğan&quot;,&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/user?username\u003denes.erdogan&quot;,&quot;name&quot;:&quot;enes.erdogan&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;enes.erdogan@virgosol.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Enes Erdoğan&quot;,&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/user?username\u003denes.erdogan&quot;,&quot;name&quot;:&quot;enes.erdogan&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/issue/LCW-2/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[{}],&quot;labels&quot;:[]},&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/issue/10001&quot;,&quot;key&quot;:&quot;LCW-2&quot;,&quot;id&quot;:10001}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>aff6e454-fb55-4493-842f-5b3cf080f094</testCaseGuid>
+</TestCaseEntity>

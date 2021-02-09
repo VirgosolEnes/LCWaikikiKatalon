@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: This is your first task
+Description: h2. This is your first task. 
+{color:#707070} Issues are the things you do in a project. In business projects, issues are called tasks. {color}
+h4. Types of tasks
+{color:#707070}A task can represent a document, a creative asset, a purchase and even a person.{color}
+!IssueTypes.png!
+h4. Details
+{color:#707070}The 'Details' section above, provides the information you need, such as priority and status, to help you track the progress of your tasks.{color}
+Next: [Workflows and statuses|LCW-2]
+
+----
+[Learn more |http://blogs.atlassian.com/2015/11/make-jira-core-issues-work-for-your-business-team/]</description>
+   <name>LCW-1 This is your first task</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10005&quot;:&quot;0|hzzzzz:&quot;,&quot;customfield_10004&quot;:[&quot;com.atlassian.greenhopper.service.sprint.Sprint@4da91a10[id\u003d1,rapidViewId\u003d1,state\u003dACTIVE,name\u003dLCWaikik Sprint 1,startDate\u003d2021-02-05T10:34:00.000+03:00,endDate\u003d2021-02-05T10:49:00.000+03:00,completeDate\u003d\u003cnull\u003e,activatedDate\u003d2021-02-05T10:34:20.335+03:00,sequence\u003d1,goal\u003d\u003cnull\u003e,autoStartStop\u003dfalse]&quot;]},&quot;status&quot;:{&quot;id&quot;:10001,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;http://localhost:8084/images/icons/status_generic.gif&quot;,&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/status/10001&quot;,&quot;name&quot;:&quot;Done&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;LCW&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;LCWaikiki&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;This is your first task&quot;,&quot;description&quot;:&quot;h2. This is your first task. \n{color:#707070} Issues are the things you do in a project. In business projects, issues are called tasks. {color}\nh4. Types of tasks\n{color:#707070}A task can represent a document, a creative asset, a purchase and even a person.{color}\n!IssueTypes.png!\nh4. Details\n{color:#707070}The \u0027Details\u0027 section above, provides the information you need, such as priority and status, to help you track the progress of your tasks.{color}\nNext: [Workflows and statuses|LCW-2]\n\n----\n[Learn more |http://blogs.atlassian.com/2015/11/make-jira-core-issues-work-for-your-business-team/]&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;enes.erdogan@virgosol.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Enes Erdoğan&quot;,&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/user?username\u003denes.erdogan&quot;,&quot;name&quot;:&quot;enes.erdogan&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;enes.erdogan@virgosol.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Enes Erdoğan&quot;,&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/user?username\u003denes.erdogan&quot;,&quot;name&quot;:&quot;enes.erdogan&quot;},&quot;resolution&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;Work has been completed on this issue.&quot;,&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/resolution/10000&quot;,&quot;name&quot;:&quot;Done&quot;},&quot;priority&quot;:{&quot;id&quot;:5,&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/priority/5&quot;,&quot;name&quot;:&quot;Lowest&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/issue/LCW-1/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/issue/10000&quot;,&quot;key&quot;:&quot;LCW-1&quot;,&quot;id&quot;:10000}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>969c9df6-b5c7-40b5-9170-c71cf8dfaa76</testCaseGuid>
+</TestCaseEntity>

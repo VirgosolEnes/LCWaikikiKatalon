@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Editing tasks
+Description: h4. Editing tasks
+{color:#707070}Hover over the content you want to edit and make the change. Click the checkmark and you're done! You can also edit using keyboard shortcuts or by clicking the 'Edit' button. And don't forget to assign the task to someone. {color}
+h4. Commenting
+{color:#707070}You can add comments to a task below. Comments are a great way to communicate with your team and stay informed. Plus, you can notify specific team members by using @mentions.
+{color}
+!Comment.png!
+Next: [Searching|LCW-4]
+{color:#707070}Previous:{color} [Workflows and Statuses|LCW-2]
+
+
+----
+[Learn more about editing issues|https://confluence.atlassian.com/display/JIRA/Editing+an+Issue]</description>
+   <name>LCW-3 Editing tasks</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10005&quot;:&quot;0|i0000f:&quot;,&quot;customfield_10004&quot;:[&quot;com.atlassian.greenhopper.service.sprint.Sprint@4da91a10[id\u003d1,rapidViewId\u003d1,state\u003dACTIVE,name\u003dLCWaikik Sprint 1,startDate\u003d2021-02-05T10:34:00.000+03:00,endDate\u003d2021-02-05T10:49:00.000+03:00,completeDate\u003d\u003cnull\u003e,activatedDate\u003d2021-02-05T10:34:20.335+03:00,sequence\u003d1,goal\u003d\u003cnull\u003e,autoStartStop\u003dfalse]&quot;]},&quot;status&quot;:{&quot;id&quot;:3,&quot;description&quot;:&quot;This issue is being actively worked on at the moment by the assignee.&quot;,&quot;iconUrl&quot;:&quot;http://localhost:8084/images/icons/statuses/inprogress.png&quot;,&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/status/3&quot;,&quot;name&quot;:&quot;In Progress&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;LCW&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;LCWaikiki&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Editing tasks&quot;,&quot;description&quot;:&quot;h4. Editing tasks\n{color:#707070}Hover over the content you want to edit and make the change. Click the checkmark and you\u0027re done! You can also edit using keyboard shortcuts or by clicking the \u0027Edit\u0027 button. And don\u0027t forget to assign the task to someone. {color}\nh4. Commenting\n{color:#707070}You can add comments to a task below. Comments are a great way to communicate with your team and stay informed. Plus, you can notify specific team members by using @mentions.\n{color}\n!Comment.png!\nNext: [Searching|LCW-4]\n{color:#707070}Previous:{color} [Workflows and Statuses|LCW-2]\n\n\n----\n[Learn more about editing issues|https://confluence.atlassian.com/display/JIRA/Editing+an+Issue]&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;enes.erdogan@virgosol.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Enes Erdoğan&quot;,&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/user?username\u003denes.erdogan&quot;,&quot;name&quot;:&quot;enes.erdogan&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;enes.erdogan@virgosol.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Enes Erdoğan&quot;,&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/user?username\u003denes.erdogan&quot;,&quot;name&quot;:&quot;enes.erdogan&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/issue/LCW-3/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/issue/10002&quot;,&quot;key&quot;:&quot;LCW-3&quot;,&quot;id&quot;:10002}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>8634511f-78a7-46f5-a189-45ec0bddcaa6</testCaseGuid>
+</TestCaseEntity>

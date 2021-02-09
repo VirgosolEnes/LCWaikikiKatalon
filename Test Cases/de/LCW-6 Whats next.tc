@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: What's next?
+Description: h4. Now it's your turn!
+{color:#707070}Now, it is your turn to create your first task. Click the 'Create' button and get your project started. {color}
+h4. If you are a JIRA Core administrator, you can create and customize projects for your organization. 
+* {color:#707070} Click on 'Create Project' under the Project menu above and select one of the business projects to get started. {color}
+* {color:#707070}Invite team members to JIRA Core - keyboard shortcut: !dot.png!, then type 'users' {color}
+* {color:#707070}Delete this Demo Project - keyboard shortcut: !dot.png!, then type 'projects' {color}
+{color:#707070}Previous:{color} [Keyboard shortcuts|LCW-5]
+
+----
+(i) [Visit the JIRA Core documentation|https://confluence.atlassian.com/display/JIRACORECLOUD/JIRA+Core+documentation]</description>
+   <name>LCW-6 Whats next</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10005&quot;:&quot;0|i00013:&quot;,&quot;customfield_10004&quot;:[&quot;com.atlassian.greenhopper.service.sprint.Sprint@4da91a10[id\u003d1,rapidViewId\u003d1,state\u003dACTIVE,name\u003dLCWaikik Sprint 1,startDate\u003d2021-02-05T10:34:00.000+03:00,endDate\u003d2021-02-05T10:49:00.000+03:00,completeDate\u003d\u003cnull\u003e,activatedDate\u003d2021-02-05T10:34:20.335+03:00,sequence\u003d1,goal\u003d\u003cnull\u003e,autoStartStop\u003dfalse]&quot;]},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;http://localhost:8084/images/icons/status_generic.gif&quot;,&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;LCW&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;LCWaikiki&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;What\u0027s next?&quot;,&quot;description&quot;:&quot;h4. Now it\u0027s your turn!\n{color:#707070}Now, it is your turn to create your first task. Click the \u0027Create\u0027 button and get your project started. {color}\nh4. If you are a JIRA Core administrator, you can create and customize projects for your organization. \n* {color:#707070} Click on \u0027Create Project\u0027 under the Project menu above and select one of the business projects to get started. {color}\n* {color:#707070}Invite team members to JIRA Core - keyboard shortcut: !dot.png!, then type \u0027users\u0027 {color}\n* {color:#707070}Delete this Demo Project - keyboard shortcut: !dot.png!, then type \u0027projects\u0027 {color}\n{color:#707070}Previous:{color} [Keyboard shortcuts|LCW-5]\n\n----\n(i) [Visit the JIRA Core documentation|https://confluence.atlassian.com/display/JIRACORECLOUD/JIRA+Core+documentation]&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;enes.erdogan@virgosol.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Enes Erdoğan&quot;,&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/user?username\u003denes.erdogan&quot;,&quot;name&quot;:&quot;enes.erdogan&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;enes.erdogan@virgosol.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Enes Erdoğan&quot;,&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/user?username\u003denes.erdogan&quot;,&quot;name&quot;:&quot;enes.erdogan&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/issue/LCW-6/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/issue/10005&quot;,&quot;key&quot;:&quot;LCW-6&quot;,&quot;id&quot;:10005}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>5381ca62-6eee-4fdb-899e-10fc34b701db</testCaseGuid>
+</TestCaseEntity>

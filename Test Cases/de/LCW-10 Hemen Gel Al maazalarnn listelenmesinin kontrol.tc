@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Hemen Gel Al mağazalarının listelenmesinin kontrolü
+Description: Test Steps:
+1. Start listener action : sampleBeforeTestCase
+2. runFeatureFile(&quot;Include/features/operations/Hemen Gel Al mağazalarının listelenmesinin kontrolü.feature&quot;)
+3. Start listener action : sampleAfterTestCase
+
+Error message: Test Cases/operations/Hemen Gel Al mağazalarının listelenmesinin kontrolü FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.NullPointerException: No format for key faıled
+	at cucumber.runtime.formatter.AnsiFormats.get(AnsiFormats.java:51)
+	at cucumber.runtime.Stats.printScenarios(Stats.java:170)
+	at cucumber.runtime.Stats.printNonZeroResultScenarios(Stats.java:161)
+	at cucumber.runtime.Stats.printStats(Stats.java:107)
+	at cucumber.runtime.DefaultSummaryPrinter.printStats(DefaultSummaryPrinter.java:34)
+	at cucumber.runtime.DefaultSummaryPrinter.print(DefaultSummaryPrinter.java:27)
+	at cucumber.runtime.DefaultSummaryPrinter.access$000(DefaultSummaryPrinter.java:14)
+	at cucumber.runtime.DefaultSummaryPrinter$1.receive(DefaultSummaryPrinter.java:63)
+	at cucumber.runtime.DefaultSummaryPrinter$1.receive(DefaultSummaryPrinter.java:60)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:106)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:73)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:246)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Hemen Gel Al mağazalarının listelenmesinin kontrolü.run(Hemen Gel Al mağazalarının listelenmesinin kontrolü:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1612489585086.run(TempTestSuite1612489585086.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:73)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:246)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Hemen Gel Al mağazalarının listelenmesinin kontrolü.run(Hemen Gel Al mağazalarının listelenmesinin kontrolü:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1612489585086.run(TempTestSuite1612489585086.groovy:39)
+Caused by: java.lang.NullPointerException: No format for key faıled
+	at cucumber.runtime.formatter.AnsiFormats.get(AnsiFormats.java:51)
+	at cucumber.runtime.Stats.printScenarios(Stats.java:170)
+	at cucumber.runtime.Stats.printNonZeroResultScenarios(Stats.java:161)
+	at cucumber.runtime.Stats.printStats(Stats.java:107)
+	at cucumber.runtime.DefaultSummaryPrinter.printStats(DefaultSummaryPrinter.java:34)
+	at cucumber.runtime.DefaultSummaryPrinter.print(DefaultSummaryPrinter.java:27)
+	at cucumber.runtime.DefaultSummaryPrinter.access$000(DefaultSummaryPrinter.java:14)
+	at cucumber.runtime.DefaultSummaryPrinter$1.receive(DefaultSummaryPrinter.java:63)
+	at cucumber.runtime.DefaultSummaryPrinter$1.receive(DefaultSummaryPrinter.java:60)
+	at cucumber.runner.EventBus.send(EventBus.java:28)
+	at cucumber.runtime.Runtime.run(Runtime.java:109)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:106)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 19 more
+</description>
+   <name>LCW-10 Hemen Gel Al maazalarnn listelenmesinin kontrol</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10005&quot;:&quot;0|i0001z:&quot;,&quot;customfield_10004&quot;:[&quot;com.atlassian.greenhopper.service.sprint.Sprint@4da91a10[id\u003d1,rapidViewId\u003d1,state\u003dACTIVE,name\u003dLCWaikik Sprint 1,startDate\u003d2021-02-05T10:34:00.000+03:00,endDate\u003d2021-02-05T10:49:00.000+03:00,completeDate\u003d\u003cnull\u003e,activatedDate\u003d2021-02-05T10:34:20.335+03:00,sequence\u003d1,goal\u003d\u003cnull\u003e,autoStartStop\u003dfalse]&quot;]},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;http://localhost:8084/images/icons/status_generic.gif&quot;,&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;LCW&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;LCWaikiki&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Hemen Gel Al mağazalarının listelenmesinin kontrolü&quot;,&quot;description&quot;:&quot;Test Steps:\r\n1. Start listener action : sampleBeforeTestCase\r\n2. runFeatureFile(\&quot;Include/features/operations/Hemen Gel Al mağazalarının listelenmesinin kontrolü.feature\&quot;)\r\n3. Start listener action : sampleAfterTestCase\r\n\r\nError message: Test Cases/operations/Hemen Gel Al mağazalarının listelenmesinin kontrolü FAILED.\r\nReason:\r\ncom.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.NullPointerException: No format for key faıled\r\n\tat cucumber.runtime.formatter.AnsiFormats.get(AnsiFormats.java:51)\r\n\tat cucumber.runtime.Stats.printScenarios(Stats.java:170)\r\n\tat cucumber.runtime.Stats.printNonZeroResultScenarios(Stats.java:161)\r\n\tat cucumber.runtime.Stats.printStats(Stats.java:107)\r\n\tat cucumber.runtime.DefaultSummaryPrinter.printStats(DefaultSummaryPrinter.java:34)\r\n\tat cucumber.runtime.DefaultSummaryPrinter.print(DefaultSummaryPrinter.java:27)\r\n\tat cucumber.runtime.DefaultSummaryPrinter.access$000(DefaultSummaryPrinter.java:14)\r\n\tat cucumber.runtime.DefaultSummaryPrinter$1.receive(DefaultSummaryPrinter.java:63)\r\n\tat cucumber.runtime.DefaultSummaryPrinter$1.receive(DefaultSummaryPrinter.java:60)\r\n\tat cucumber.runner.EventBus.send(EventBus.java:28)\r\n\tat cucumber.runtime.Runtime.run(Runtime.java:109)\r\n\tat cucumber.api.cli.Main.run(Main.java:35)\r\n\tat cucumber.api.cli.Main$run.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:106)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:73)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:246)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\r\n\tat Hemen Gel Al mağazalarının listelenmesinin kontrolü.run(Hemen Gel Al mağazalarının listelenmesinin kontrolü:18)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1612489585086.run(TempTestSuite1612489585086.groovy:39)\r\n)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:73)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:246)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\r\n\tat Hemen Gel Al mağazalarının listelenmesinin kontrolü.run(Hemen Gel Al mağazalarının listelenmesinin kontrolü:18)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1612489585086.run(TempTestSuite1612489585086.groovy:39)\r\nCaused by: java.lang.NullPointerException: No format for key faıled\r\n\tat cucumber.runtime.formatter.AnsiFormats.get(AnsiFormats.java:51)\r\n\tat cucumber.runtime.Stats.printScenarios(Stats.java:170)\r\n\tat cucumber.runtime.Stats.printNonZeroResultScenarios(Stats.java:161)\r\n\tat cucumber.runtime.Stats.printStats(Stats.java:107)\r\n\tat cucumber.runtime.DefaultSummaryPrinter.printStats(DefaultSummaryPrinter.java:34)\r\n\tat cucumber.runtime.DefaultSummaryPrinter.print(DefaultSummaryPrinter.java:27)\r\n\tat cucumber.runtime.DefaultSummaryPrinter.access$000(DefaultSummaryPrinter.java:14)\r\n\tat cucumber.runtime.DefaultSummaryPrinter$1.receive(DefaultSummaryPrinter.java:63)\r\n\tat cucumber.runtime.DefaultSummaryPrinter$1.receive(DefaultSummaryPrinter.java:60)\r\n\tat cucumber.runner.EventBus.send(EventBus.java:28)\r\n\tat cucumber.runtime.Runtime.run(Runtime.java:109)\r\n\tat cucumber.api.cli.Main.run(Main.java:35)\r\n\tat cucumber.api.cli.Main$run.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:106)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\t... 19 more\r\n&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;enes.erdogan@virgosol.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Enes Erdoğan&quot;,&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/user?username\u003denes.erdogan&quot;,&quot;name&quot;:&quot;enes.erdogan&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;enes.erdogan@virgosol.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Enes Erdoğan&quot;,&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/user?username\u003denes.erdogan&quot;,&quot;name&quot;:&quot;enes.erdogan&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/issue/LCW-10/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;http://localhost:8084/rest/api/2/issue/10101&quot;,&quot;key&quot;:&quot;LCW-10&quot;,&quot;id&quot;:10101}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>ce24b23d-40e8-4513-9242-a9cdd82a0ba6</testCaseGuid>
+</TestCaseEntity>
